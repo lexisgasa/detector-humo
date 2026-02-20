@@ -1,42 +1,37 @@
-# sv
+# 😶‍🌫️ Detector de Humo
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+¿Cansado de leer posts interminables en LinkedIn para descubrir que no dicen nada? Esta herramienta analiza textos en tiempo real para detectar cuñadeces y frases típicas de los vendehumos o gurús de la Inteligencia Artificial.
 
-## Creating a project
+🔗 **[Probar la aplicación en vivo](https://detector-humo.vercel.app/)**
 
-If you're seeing this, you've probably already done this step. Congrats!
+## ✨ Características
 
-```sh
-# create a new project
-npx sv create my-app
-```
+- **Análisis en tiempo real:** Detecta frases clave al instante mientras escribes o pegas el texto.
+- **Normalización Inteligente:** Uso de Expresiones Regulares (Regex) para ignorar acentos, mayúsculas y signos de puntuación.
+- **Categorización:** Clasifica las frases detectadas (Por ahora: "IA" o "Cursos").
+- **Diseño Responsive:** Interfaz oscura (Dark Mode) adaptada a móviles usando Tailwind CSS.
 
-To recreate this project with the same configuration:
+## 🛠️ Stack Tecnológico
 
-```sh
-# recreate this project
-npx sv create --template minimal --types ts --add eslint tailwindcss="plugins:forms" --install npm cunadia
-```
+- **Frontend:** [Svelte 5 (Runes)](https://svelte.dev/) + SvelteKit
+- **Estilos:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Despliegue:** [Vercel](https://vercel.com/)
 
-## Developing
+## 🚀 Instalación Local
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Si quieres clonar este proyecto y probarlo en tu máquina:
 
-```sh
-npm run dev
+1. Clona el repositorio:
+   \`\`\`bash
+   git clone https://github.com/TU_USUARIO/detector-humo.git
+   \`\`\`
+2. Instala las dependencias:
+   \`\`\`bash
+   npm install
+   \`\`\`
+3. Arranca el servidor de desarrollo:
+   \`\`\`bash
+   npm run dev
+   \`\`\`
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+---
