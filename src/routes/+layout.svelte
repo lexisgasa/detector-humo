@@ -1,10 +1,9 @@
 <script lang="ts">
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
-	import { dev } from '$app/environment';
-	import { inject } from '@vercel/analytics';
+	import { injectAnalytics } from '@vercel/analytics/sveltekit';
 
-	inject({ mode: dev ? 'development' : 'production' });
+	injectAnalytics();
 
 	let { children } = $props();
 </script>
