@@ -14,6 +14,13 @@
     { frase: "la realidad corporativa", tipo: "IA" },
     { frase: "cambiar el juego", tipo: "IA" },
     { frase: "mientras todo", tipo: "IA" },
+    { frase: "hoy lo hace", tipo: "IA" },
+    { frase: "antes necesitaba", tipo: "IA" },
+    { frase: "voló la cabeza", tipo: "IA" },
+    { frase: "la barrera de entrada", tipo: "IA" },
+    { frase: "lo más loco", tipo: "IA" },
+    { frase: "yo ya lo estoy", tipo: "IA" },
+    { frase: "ahorrar semanas", tipo: "IA" },
     { frase: "tu propio cliente", tipo: "curso" },
     { frase: "monetiza tu marca", tipo: "curso" },
     { frase: "monta tu negocio online", tipo: "curso" },
@@ -46,7 +53,7 @@
 </svelte:head>
 
 <main
-  class="min-h-screen flex flex-col items-center py-20 px-4 gap-12"
+  class="min-h-screen flex flex-col items-center py-8 px-4 gap-12"
 >
   <h1 class="text-3xl sm:text-4xl font-extrabold text-cyan-400">Vale la pena?</h1>
 
@@ -80,4 +87,13 @@
       Texto aparentemente limpio...
     </div>
   {/if}
+
+  <footer class="mt-auto text-center text-slate-500 text-sm">
+    <p>
+    Desarrollado con ❤️ por
+      <a href="https://alexisastrofolio.netlify.app/" target="_blank" class="text-cyan-500 hover:text-cyan-400 font-bold hover:underline transition-all">
+        Alexis Garcia
+      </a>
+    </p>
+  </footer>
 </main>
